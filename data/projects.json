@@ -1,0 +1,246 @@
+{
+  "_convencion": "Cada proyecto vive en assets/img/{categoria}/{folder}/. Las imágenes se nombran 01.jpg, 02.jpg, 03.jpg... El sitio genera las rutas automáticamente con imageCount. La portada es siempre 01.jpg salvo que definas 'cover'. Formatos aceptados: define 'ext' si no es jpg (webp, png).",
+  "categorias": [
+    {
+      "slug": "impacto",
+      "nombre": "Impacto de Negocio",
+      "tag": "Growth · Performance · Case Study",
+      "href": "impacto.html",
+      "label": "Case study",
+      "previewSrcs": [
+        "assets/img/impacto/preview-01.webp",
+        "assets/img/impacto/preview-02.webp",
+        "assets/img/impacto/preview-03.webp"
+      ]
+    },
+    {
+      "slug": "branding-corporativo",
+      "nombre": "Branding Corporativo",
+      "tag": "Identidad · Sistemas visuales",
+      "previews": [
+        1,
+        4,
+        6
+      ]
+    },
+    {
+      "slug": "social-media",
+      "nombre": "Social Media",
+      "tag": "Campañas · Contenido · Ads",
+      "previews": [
+        18,
+        17,
+        6,
+        3
+      ]
+    },
+    {
+      "slug": "campanas-ooh",
+      "nombre": "Campañas OOH",
+      "tag": "Vallas · Mupis · Print",
+      "previews": [
+        4,
+        1,
+        3,
+        8
+      ]
+    },
+    {
+      "slug": "retoque-imagen",
+      "nombre": "Manipulación y Retoque de Imagen",
+      "tag": "Composición · CGI · Retoque premium",
+      "previews": [
+        3,
+        2,
+        9,
+        12
+      ]
+    },
+    {
+      "slug": "newsletter",
+      "nombre": "Newsletter",
+      "tag": "Email marketing · Automatización",
+      "previews": [
+        1,
+        2,
+        6,
+        11
+      ]
+    },
+    {
+      "slug": "campanas-google-media",
+      "nombre": "Campañas Google Media",
+      "tag": "Display · Performance Max · Remarketing",
+      "previews": [
+        8,
+        29,
+        9,
+        24
+      ]
+    }
+  ],
+  "proyectos": [
+    {
+      "id": "impacto-negocio",
+      "categoria": "impacto",
+      "folder": "",
+      "titulo": "Siete años escalando un e-commerce con datos",
+      "kicker": "Growth Marketing · Case Study",
+      "cliente": "",
+      "anio": "2019 — actualidad",
+      "descripcion": "RD$400M+ en ventas del negocio acompañadas, 15,000+ compras online y un costo por compra de US$14.43 en Meta. El caso completo, con embudo, estrategia e insights.",
+      "problema": "",
+      "objetivo": "",
+      "proceso": "",
+      "resultado": "",
+      "imageCount": 0,
+      "ext": "webp",
+      "featured": true,
+      "href": "impacto.html",
+      "cover": "assets/img/impacto/cover.webp",
+      "embed": null
+    },
+    {
+      "id": "social-media",
+      "categoria": "social-media",
+      "folder": "seleccion",
+      "titulo": "Social Media",
+      "cliente": "",
+      "anio": "",
+      "descripcion": "",
+      "problema": "",
+      "objetivo": "",
+      "proceso": "",
+      "resultado": "",
+      "imageCount": 52,
+      "featured": false,
+      "embed": null,
+      "ext": "webp",
+      "cover": "assets/img/social-media/seleccion/18.webp"
+    },
+    {
+      "id": "retoque-imagen",
+      "categoria": "retoque-imagen",
+      "folder": "seleccion",
+      "titulo": "Manipulación y Retoque de Imagen",
+      "cliente": "",
+      "anio": "",
+      "descripcion": "",
+      "problema": "",
+      "objetivo": "",
+      "proceso": "",
+      "resultado": "",
+      "imageCount": 18,
+      "ext": "webp",
+      "featured": false,
+      "embed": null,
+      "cover": "assets/img/retoque-imagen/seleccion/03.webp"
+    },
+    {
+      "id": "newsletter",
+      "categoria": "newsletter",
+      "folder": "seleccion",
+      "titulo": "Newsletter",
+      "cliente": "",
+      "anio": "",
+      "descripcion": "",
+      "problema": "",
+      "objetivo": "",
+      "proceso": "",
+      "resultado": "",
+      "imageCount": 15,
+      "ext": "webp",
+      "featured": false,
+      "embed": null,
+      "cover": "assets/img/newsletter/seleccion/01.webp"
+    },
+    {
+      "id": "campanas-ooh",
+      "categoria": "campanas-ooh",
+      "folder": "seleccion",
+      "titulo": "Campañas OOH",
+      "cliente": "",
+      "anio": "",
+      "descripcion": "",
+      "problema": "",
+      "objetivo": "",
+      "proceso": "",
+      "resultado": "",
+      "imageCount": 12,
+      "ext": "webp",
+      "featured": false,
+      "embed": null,
+      "cover": "assets/img/campanas-ooh/seleccion/04.webp"
+    },
+    {
+      "id": "campanas-google-media",
+      "categoria": "campanas-google-media",
+      "folder": "seleccion",
+      "titulo": "Campañas Google Media",
+      "cliente": "",
+      "anio": "",
+      "descripcion": "",
+      "problema": "",
+      "objetivo": "",
+      "proceso": "",
+      "resultado": "",
+      "imageCount": 36,
+      "ext": "webp",
+      "display": "native",
+      "featured": false,
+      "embed": null,
+      "cover": "assets/img/campanas-google-media/seleccion/08.webp"
+    },
+    {
+      "id": "aisuru-essence",
+      "categoria": "branding-corporativo",
+      "folder": "aisuru-essence",
+      "titulo": "Aisuru ESSENCE",
+      "cliente": "Proyecto conceptual",
+      "anio": "2025",
+      "descripcion": "Identidad para una marca de cuidado capilar premium que une la estética del sol naciente japonés con la esencia de la mujer latina. Proyecto conceptual: sistema completo de marca, de la estrategia al lenguaje.",
+      "problema": "El cuidado capilar premium en el Caribe habla con acento importado: marcas globales que no reconocen la diversidad real del cabello latino — rizado, afro, liso, libre. El ejercicio: construir una marca de lujo accesible que se sienta a la vez ritual oriental y orgullo dominicano.",
+      "objetivo": "Diseñar un sistema de identidad completo — estrategia, arquetipos, identidad verbal, logo, paleta y tipografía — capaz de sostener una marca desde el empaque hasta la conversación en redes.",
+      "proceso": "Estrategia primero: arquetipos (El Amante como voz dominante), tres buyer personas y posicionamiento. De ahí, el sistema visual: el círculo rojo del sol naciente como isotipo, Cormorant Garamond para la elegancia editorial, Jost para la claridad moderna, y una paleta que cruza el carmesí japonés con el oro del ritual.",
+      "resultado": "Un sistema coherente y expandible que demuestra el proceso completo de construcción de marca: cada decisión visual responde a una decisión estratégica. Manual de identidad íntegro, de los valores a los usos correctos.",
+      "imageCount": 7,
+      "ext": "webp",
+      "featured": false,
+      "embed": null
+    },
+    {
+      "id": "romero-pena",
+      "categoria": "branding-corporativo",
+      "folder": "romero-pena",
+      "titulo": "Romero Peña & Asociados",
+      "cliente": "Romero Peña & Asociados",
+      "anio": "2026",
+      "descripcion": "Identidad visual para un despacho legal corporativo que compite con firmas internacionales: autoridad que inspira confianza, sin la frialdad institucional del sector.",
+      "problema": "El sector legal dominicano viste de negro, gris y dorado: identidades que intimidan antes de acompañar. Romero Peña & Asociados necesitaba una imagen capaz de competir visualmente con despachos internacionales, pero diferenciada por cercanía humana — autoridad accesible, no distancia institucional.",
+      "objetivo": "Construir un sistema de identidad completo — logotipo, paleta, tipografía, reglas de uso y kit de aplicaciones — que posicione a la firma como moderna, sofisticada y estratégica ante clientes corporativos.",
+      "proceso": "Estrategia sobre los arquetipos de El Sabio y El Gobernante. Monograma RPA con tratamiento serif que une tradición jurídica e innovación; paleta de azul petróleo y verdes estratégicos que rompe deliberadamente con el dorado tradicional del sector, gobernada por la regla 60·30·10; sistema tipográfico de tres voces (Cormorant Garamond, Montserrat, Inter).",
+      "resultado": "Manual de identidad integral v1.0: del ADN de marca a las aplicaciones físicas y el kit de social media con proporción editorial 80% autoridad / 20% promoción. Un sistema listo para escalar de la tarjeta a la señalización.",
+      "imageCount": 8,
+      "ext": "webp",
+      "featured": false,
+      "embed": null
+    },
+    {
+      "id": "ropaje",
+      "categoria": "branding-corporativo",
+      "folder": "ropaje",
+      "titulo": "Ropaje",
+      "cliente": "Proyecto conceptual",
+      "anio": "2026",
+      "descripcion": "Identidad para una marca de moda circular dominicana: segunda mano con orgullo, sostenibilidad sin el cliché verde-reciclaje. Sistema de logo, color y tipografía. \"Viste diferente. Consume consciente.\"",
+      "problema": "La ropa de segunda mano carga un estigma: o se vende como caridad o se disfraza de vintage caro. Ropaje necesitaba una identidad que celebrara el consumo consciente como elección de estilo — deseable, no resignada — y que se despegara del verde-reciclaje brillante que uniforma a todo lo \"sostenible\".",
+      "objetivo": "Definir un sistema de marca aplicable de inmediato — logo con el gancho como isotipo, paleta cálida de rojo, carbón y neutros hueso, y sistema tipográfico editorial — listo para etiquetas, empaque, redes y tienda.",
+      "proceso": "El gancho de ropa integrado en la 'A' del wordmark como símbolo de la circularidad. Paleta que reemplaza el blanco puro por hueso y crema (calidez de lo usado y querido), con rojo Ropaje como voz principal y salvia desaturada como guiño sostenible. Fraunces para el carácter editorial de campaña, Karla para la calidez legible del día a día.",
+      "resultado": "Manual de marca v1.0 con reglas de uso, versiones sobre fondo claro y oscuro, zona de seguridad y jerarquía tipográfica — un sistema honesto sobre su alcance y preparado para crecer.",
+      "imageCount": 6,
+      "ext": "webp",
+      "featured": false,
+      "embed": null
+    }
+  ]
+}
